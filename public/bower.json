@@ -1,0 +1,13 @@
+{
+  "name": "public",
+  "version": "0.0.0",
+  "homepage": "https://github.com/soniagisel/backbone-practises",
+  "authors": [
+    "Damian Aruj <daruj@despegar.com>"
+  ],
+  "description": "Backbone test",
+  "license": "MIT",
+  "dependencies": {
+    "backbone": "~1.2.1"
+  }
+}

@@ -15,7 +15,8 @@
   "bugs": {
     "url": "https://github.com/soniagisel/backbone-practises/issues"
   },
-  "devDependencies": {
-    "express": "~4.12.4"
+  "dependencies": {
+    "ejs": "^2.3.1",
+    "express": "^4.13.0"
   }
 }
