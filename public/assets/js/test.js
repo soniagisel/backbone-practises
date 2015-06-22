@@ -1,3 +1,5 @@
+//Source tutorial https://www.youtube.com/watch?v=FZSjvWtUxYk
+
 $.ajaxPrefilter(function (options, originalOptions, jqXHR) {
     options.url = 'http://localhost:8989' + options.url;
 });
@@ -5,10 +7,11 @@ $.ajaxPrefilter(function (options, originalOptions, jqXHR) {
 var UserList = Backbone.View.extend({
     el: '.page',
     render: function(){
+        var that = this;
         var users = new Users();
         users.fetch({
             success: function () {
-                this.$el.html('Content should show here!');
+                that.$el.html('Content should show here!');
             }
         });
     }
